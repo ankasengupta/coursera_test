@@ -1,0 +1,96 @@
+/* Base styles */
+
+* {
+    box-sizing: border-box;
+  }
+
+  h1 {
+    margin-bottom: 42px;
+    font-family: Helvetica;
+    text-align: center;
+  }
+
+  p {
+    width: 90%;
+    height: 150px;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: Helvetica;
+    color: white;
+    margin-top: 0;
+    padding-top: 2em;
+  }
+
+  section {
+    border: 1px solid black;
+    background-color: rgb(182,170,182);
+    margin: 10px;
+}
+
+  .row{
+      width: 100%;
+  }
+
+  section>header {
+    border: 1px solid black;
+    float: right;
+    margin: 0;
+    height: 25px;
+    font-family: Helvetica;
+    font-size: 1.4em;
+    text-align: right;
+    font-weight: bold;
+}
+
+#chicken {
+    background-color: rgb(229,173,209);
+}
+
+#beef {
+    background-color: rgb(193,173,229);
+}
+
+#sushi {
+    background-color: rgb(173,229,221);
+}
+   
+/* Styles for Larges Devices (Desktop) only */
+
+@media (min-width: 992px) {
+    .col-lg-4 {
+      float: left;
+    }
+
+    .col-lg-4 {
+        width: 33.33%;
+    }
+}
+
+/* Styles for Medium Devices (Tablet) only */
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .col-md-6, .col-md-12 {
+      float: left;
+    }
+
+    .col-md-6 {
+        width: 50%;
+    }
+
+    .col-md-12 {
+        width: 100%;
+    }
+}
+
+  /* Styles for Small Devies (Mobile) only */
+
+@media (max-width: 767px){
+    .col-sm-12 {
+        float: left;
+    }
+
+    .col-sm-12 {
+        width: 100%;
+    }
+}
+    
