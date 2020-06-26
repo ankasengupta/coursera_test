@@ -1,0 +1,84 @@
+/* Base styles */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 14px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: justify;
+    /* color: antiquewhite; */
+    background-color: rgb(173,181,229);
+}
+
+/* Header styles */
+
+#header-nav {
+    background-color: rgb(173,229,221);
+    border-radius: 0;
+}
+
+#header-nav button {
+    margin-top: 22px;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: rgb(229,221,173);
+}
+
+.navbar-collapse {
+    border-top: 0;
+}
+
+.navbar-brand, .navbar-nav li a {
+    line-height: 76px;
+    height: 76px;
+    padding-top: 0;
+}
+
+.navbar-brand a:hover {
+    text-shadow: 1px 1px 1px;
+}
+
+#nav-list {
+    background-color: rgb(229,221,173);
+}
+
+#nav-list a {
+    font-size: 1.2em;
+}
+
+#nav-list a:hover {
+    background-color: #fce29e;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid black;
+}
+
+/* Homepage styles */
+
+#main-content {
+    width: 92%;
+    margin-bottom: 30px;
+}
+
+h2 {
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+h3 {
+    font-weight: bold;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+#chicken, #beef, #sushi {
+    width: 100%;
+    padding: 20px;
+    background-color: rgb(173,209,229);
+    margin-bottom: 50px;
+    box-shadow: 0 0 10px;
+}
